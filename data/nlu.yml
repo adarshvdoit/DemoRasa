@@ -103,6 +103,72 @@ nlu:
     - Test?
     - Give the exam?
 
+- intent: OptionsA
+  examples: |
+    - A is the correct Answer
+    - a is correct
+    - Choose A
+    - A
+    - The correct Answer is A
+    - the first one
+    - 1
+    - one is correct
+    - Option A
+    - one
+
+- intent: OptionsB
+  examples: |
+    - B is the correct Answer
+    - B is correct
+    - Choose B
+    - B
+    - The correct Answer is B
+    - the second one
+    - 2
+    - two is correct
+    - Option B
+    - Two
+
+- intent: OptionsC
+  examples: |
+    - C is the correct Answer
+    - C is correct
+    - Choose C
+    - C
+    - The correct Answer is C
+    - the third one
+    - 3
+    - three is correct
+    - Option C
+    - Three
+
+- intent: OptionsD
+  examples: |
+    - D is the correct Answer
+    - D is correct
+    - Choose D
+    - D
+    - The correct Answer is D
+    - the forth one
+    - 4
+    - FOUR is correct
+    - Option D
+    - Four
+
+- intent: OptionsE
+  examples: |
+    - E is the correct Answer
+    - E is correct
+    - Choose E
+    - E
+    - The correct Answer is E
+    - the fifth one
+    - 5
+    - Five is correct 
+    - Option E
+    - Five
+
+
 - intent: Topic_Anemia
   examples: |
     - What is Anemia?
@@ -110,6 +176,7 @@ nlu:
     - Do you understand Anemia?
     - Anemia is what?
     - Define Anemia?
+    - Can you explain anmeaia?
 
 
 - intent: Topic_AnemiaType
@@ -117,14 +184,18 @@ nlu:
     - What are the types of Anemia?
     - What are different kinds of Anemia?
     - How many types of Anemia?
-    - Number of Anemia Types
+    - Number of Anemia Types?
+    - Can you explain anmeaia type?
+
 
 - intent: Topic_SymptomsofAnemia
   examples: |
     - What are the Symptoms of Anemia?
     - Sign of Anemia?
     - indicator of Anemia?
-    - Anemia indication
+    - Anemia indication?
+    - Can you explain anmeaia Symptoms?
+
 
 - intent: Topic_anatomy
   examples: |
@@ -180,6 +251,7 @@ nlu:
     - have a possible solutions
     - anything to help
     - whats up
+    - Can you tell me 
 
 
 

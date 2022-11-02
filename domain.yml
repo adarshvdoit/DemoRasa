@@ -19,6 +19,11 @@ intents:
   - Topic_cardiology
   - Topic_cardiologyType
   - Topic_Symptomsofcardiology
+  - OptionsA
+  - OptionsB
+  - OptionsC
+  - OptionsD
+  - OptionsE
   # - moreinfo
 
 
@@ -44,12 +49,24 @@ responses:
   utter_help:
   - text: "How can I Help You"
   utter_resumeTest:
-  # - text: "Shall we resume the previous test series or start a new one. Or you can choose from other options too"
   - text: "Shall we resume the previous topics or start a new one. Or you can choose from other options too"
   utter_TestOptions:
-  # - text: "1) Resume the previous one. 2) Start a new one. 3) Participate in a competition."
   - text: "1) Resume the previous one. 2) Start a new one."
 
+  utter_A:
+  - text: "0"
+
+  utter_B:
+  - text: "1"
+
+  utter_C:
+  - text: "2"
+
+  utter_D:
+  - text: "3"
+
+  utter_E:
+  - text: "4"
 
   # utter_iamabot:
   # - text: "I am a bot, powered by Rasa."

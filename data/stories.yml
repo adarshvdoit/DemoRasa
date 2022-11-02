@@ -2,6 +2,31 @@ version: "3.1"
 
 stories:
 
+- story: option A
+  steps:
+  - intent: OptionsA
+  - action: utter_A
+
+- story: option B
+  steps:
+  - intent: OptionsB
+  - action: utter_B
+
+- story: option C
+  steps:
+  - intent: OptionsC
+  - action: utter_C
+
+- story: option D
+  steps:
+  - intent: OptionsD
+  - action: utter_D
+
+- story: option E
+  steps:
+  - intent: OptionsE
+  - action: utter_E
+
 - story: greet
   steps:
   - intent: greet
